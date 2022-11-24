@@ -1,0 +1,37 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "front-ui-components": [
+        "dist/front-ui-components/front-ui-components",
+        "dist/front-ui-components"
+      ],
+      "front-ui": [
+        "dist/front-ui/front-ui",
+        "dist/front-ui"
+      ],
+      "front-component-ui": [
+        "dist/front-component-ui/front-component-ui",
+        "dist/front-component-ui"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
