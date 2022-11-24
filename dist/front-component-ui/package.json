@@ -1,0 +1,23 @@
+{
+  "name": "front-component-ui",
+  "version": "1.0.3",
+  "peerDependencies": {
+    "@angular/common": "^9.1.13",
+    "@angular/core": "^9.1.13"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "main": "bundles/front-component-ui.umd.js",
+  "module": "fesm5/front-component-ui.js",
+  "es2015": "fesm2015/front-component-ui.js",
+  "esm5": "esm5/front-component-ui.js",
+  "esm2015": "esm2015/front-component-ui.js",
+  "fesm5": "fesm5/front-component-ui.js",
+  "fesm2015": "fesm2015/front-component-ui.js",
+  "typings": "front-component-ui.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}

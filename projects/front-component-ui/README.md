@@ -1,24 +1,19 @@
-# FrontComponentUi
+# FrontUiComponentsAngular
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.13.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
-## Code scaffolding
+## Development server
 
-Run `ng generate component component-name --project front-component-ui` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project front-component-ui`.
-> Note: Don't forget to add `--project front-component-ui` or else it will be added to the default project in your `angular.json` file. 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Build
+## Build Libraries
 
-Run `ng build front-component-ui` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run
+[ng build front-component-ui]
+in local root will generate a dist/front-component-ui
 
-## Publishing
+[run npm link]  
+1->>>> copy path files
 
-After building your library with `ng build front-component-ui`, go to the dist folder `cd dist/front-component-ui` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test front-component-ui` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+in the main project, use libary
+2 --> [npm i + path files]
